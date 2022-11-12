@@ -62,7 +62,7 @@ public class Reto9{
             for(String lineas : lineasExel){
                 String info[] = lineas.split(",");
                 String escribir = info[0] + "   " + clasificacion(Double.parseDouble(info[1])) + "\n";
-                //writer.write(escribir);
+                writer.write(escribir);
                 fechas.add(info[0]);
                 cierre.add(Double.valueOf(info[4]));
                 volumen.add(Double.valueOf(info[6]));
